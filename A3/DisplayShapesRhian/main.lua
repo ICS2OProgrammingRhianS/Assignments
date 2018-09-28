@@ -4,21 +4,27 @@
 -- Course: ICS2O
 -- This program displays a rectangle and shows its area
 
-local newPolygon
-local Polygon
-local vertices
+
+ 
+
+local myTriangle
+local myPentagon
 -- set the background colour of my screen.Remember that the colors are between 0 and 1
 display.setDefault("background", 5/255, 56/255, 34/255)
 
 -- to remove status bar
 display.setStatusBar(display.HiddenStatusBar)
 
+local verticesTriangle = { -100,-100, 100,-100, 0,100 }
+local myTriangle = display.newPolygon(300, 200, verticesTriangle )
 
--- draw the Polygon 
- local Polygon = display.newPolygon()
+ myTriangle:setFillColor(0, 7, 6)
 
-local vertices = {}
- 
+ local verticesPentagon = { -100,-100, -90,100, 90,100, 100,-100, 0,-150  } 
+ local myPentagon = display.newPolygon(750, 200, verticesPentagon )
+
+ myPentagon:setFillColor(0, 7, 6)
+
 
 -----------------------------------------------------------------------------------------
 
