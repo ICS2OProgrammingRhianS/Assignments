@@ -1,0 +1,23 @@
+-----------------------------------------------------------------------------------------
+--Title: Local Variables
+--Name: Rhian Smith
+-- Course: ICS2O
+-- This program displays a rectangle and shows its area
+
+local myTriangle
+local verticesTriangle
+
+-- set the background colour of my screen.Remember that the colors are between 0 and 1
+display.setDefault("background", 5/255, 56/255, 34/255)
+
+-- to remove status bar
+display.setStatusBar(display.HiddenStatusBar)
+
+
+-- draw the Triangle 
+ local myTriangle = display.newTriangle(500,200, 10,10)
+
+local verticesTriangle = {150,300, 250,450, 200,250 }
+
+-----------------------------------------------------------------------------------------
+
