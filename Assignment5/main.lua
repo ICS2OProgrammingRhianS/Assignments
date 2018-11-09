@@ -67,7 +67,7 @@ local gameOverSoundChannel
 
 local function AskQuestion()
 	-- generate 2 random numbers between a max. and a min. number
-	randomOperator = math.random(1, 3)
+	randomOperator = math.random(1, 4)
 	randomNumber1 = math.random(1, 10)
 	randomNumber2 = math.random(1, 20)
 	randomNumber3 = math.random(1, 20)
